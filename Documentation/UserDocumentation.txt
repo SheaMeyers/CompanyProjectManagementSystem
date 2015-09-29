@@ -1,0 +1,38 @@
+When the user first starts the program they see a small windows that asks for
+a name of the database.  The user can type the name of a database to use or 
+leave it blank and use the database that is already in there.  
+NOTE: If the user enters a database it must be in the projects path to connect 
+to it. If the program can not connect to the database the program will display 
+a message to let the user know.
+
+Once the user connects they will see a table with the information from the
+database display and four button (Create, Search, Update and Delete)
+at the bottom.  The rows and indexes are both clickable and clicking on the column
+will sort the column.
+
+When create is clicked the user will see a new window where they can enter the
+information they want.  If the user leaves it blank or enters an ID that already
+exists a message box will let the user know.  
+After the user enters information it will be inserted into the database and shown
+in the table.
+
+When search is clicked a new window displays the textboxes where the user can enter
+their information.  If it is left blank then the query will retrieve all the
+information from the database.  Otherwise the query will search for information
+that matches the users query.
+Once the search is done the information is displayed in a table.
+
+When update is clicked a new window displays textboxes that the user can update
+the information in the database.  The user can enter information into any number
+of the textboxes. Once the user enters the information to update the information 
+is updated in the database.
+The user must enter the ID of the row they want to update.  If the ID is left 
+blank or an ID is entered that is not in the database the user will see a message
+that lets them know.
+
+When delete is click a new window display textboxes where the user can enter
+their information.  If it is left blank then the query will retrieve all the
+information from the database.  Otherwise the query will search for information
+that matches the users query.
+Once the search is done the information is displayed in a table and the user 
+has a the option to delete the information.

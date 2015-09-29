@@ -1,0 +1,16 @@
+To open the project double click on: SheaMeyers_AssesmentProject.sln
+This will open the project in Microsoft Visual Studio 2013
+
+The current database, Database1, is within the project.
+To put another database in it must be put in the SheaMeyers_AssesmentProject
+folder and must be a type .mdf to work.
+The database needs to contain a table called MainTable, and this is where
+the information is stored, searched, updated, and deleted.  
+Since all the information could be stored in one table I didn't see the 
+need to create more than one table.  
+For simplicity I made all of the database columns to be of type nchar(100).
+Any information stored into the default database therefore can not be longer
+than 100 characters.
+
+Any other information about running the program or how it works should be 
+covered in the user documentation
